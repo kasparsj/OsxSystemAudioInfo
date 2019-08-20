@@ -3,7 +3,7 @@ SuperCollider quark for OS X system audio info
 
 Uses `system_profiler SPAudioDataType` to retrieve OS X system audio info.
 
-Meant to be used in SuperCollider startup file:
+Meant to be used in SuperCollider startup file to automatically set numOutputBusChannels, numInputBusChannels and sampleRate:
 ```supercollider
 Platform.case(
 	\osx, {
