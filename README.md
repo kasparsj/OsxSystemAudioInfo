@@ -13,3 +13,11 @@ Platform.case(
 	}
 );
 ```
+All methods:
+```supercollider
+OsxSystemAudioInfo.getDefaultOutputDevice; // default output device name
+OsxSystemAudioInfo.getDefaultInputDevice; // default input device name
+OsxSystemAudioInfo.getNumOutputChannels("Built-in Output"); // optionally pass deviceName
+OsxSystemAudioInfo.getNumInputChannels("Built-in Output"); // optionally pass deviceName
+OsxSystemAudioInfo.getSampleRate("Built-in Output"); // optionally pass deviceName
+```
